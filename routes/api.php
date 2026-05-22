@@ -12,3 +12,4 @@ Route::get('/user', function (Request $request) {
 Route::apiResource("services", ServiceController::class);
 Route::patch("services/{service}/activate", [ServiceController::class, "activate"]);
 Route::patch("services/{service}/deactivate", [ServiceController::class, "deactivate"]);
+// Ini adalah komentar untuk memancing Pull Request
